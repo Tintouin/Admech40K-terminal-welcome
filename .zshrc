@@ -25,7 +25,7 @@ function mech_sep() {
 
 if command -v fortune &>/dev/null; then
   local sep=$(mech_sep)
-  local txt1="++ GLORY TO THE OMNISSIAH ++"
+  local txt1="++ PRAISE THE OMNISSIAH ++"
   local txt2="++ ADMINISTRATUM V43Φ.🜌.🜓  |  Ψ  $(imperial_date) ++"
   local pad1=$(( (COLUMNS - ${#txt1}) / 2 ))
   local pad2=$(( (COLUMNS - ${#txt2}) / 2 ))
